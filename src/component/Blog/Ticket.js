@@ -17,7 +17,7 @@ const Blog = () => {
     return (
         <div style={{background:'#fff'}} className='Full-blog-container'>
             <div className='bg-[#f0f0f2f5] mb-12'>
-                <h1 className='text-3xl font-bold p-12 max-w-screen-lg	mx-auto'>Blog</h1>
+                <h1 className='text-3xl font-bold p-12 max-w-screen-lg	mx-auto'>All Tickets</h1>
             </div>
 
             <div className='max-w-screen-md mx-auto' style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>

@@ -25,7 +25,6 @@ const Header = () => {
 
     const { user, LogOut } = useContext(AuthContext);
 
-    console.log(user?.displayName)
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -110,9 +109,9 @@ const Header = () => {
                                 </MenuItem>
                             </Link>
                             
-                            <Link to='/blog'>
+                            <Link to='/ticket'>
                                 <MenuItem onClick={handleCloseNavMenu}>
-                                    <Typography sx={{ margin: '0 auto' }} textAlign="center">Blog</Typography>
+                                    <Typography sx={{ margin: '0 auto' }} textAlign="center">Ticket</Typography>
                                 </MenuItem>
                             </Link>
 
@@ -143,7 +142,7 @@ const Header = () => {
                         <Link to='/'><Button onClick={handleCloseUserMenu} sx={{ my: 2, color: 'white', display: 'block' }}>Home</Button></Link>
                         
                         
-                        <Link to='/blog'><Button onClick={handleCloseUserMenu} sx={{ my: 2, color: 'white', display: 'block' }}>Blog</Button></Link>
+                        <Link to='/ticket'><Button onClick={handleCloseUserMenu} sx={{ my: 2, color: 'white', display: 'block' }}>Ticket</Button></Link>
 
 
                     </Box>

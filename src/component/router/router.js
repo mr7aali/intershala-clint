@@ -1,9 +1,8 @@
 
-import Blog from "../Blog/Blog";
+import Blog from "../Blog/Ticket";
 import Home from "../Home/Home";
 import LogIn from "../LogIn/LogIn";
 import PostDetails from "../PostDetails/PostDetails";
-import PrivetRout from "../PrivetRout/PrivetRout";
 import Register from "../Register/Register";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -31,8 +30,8 @@ export const router= createBrowserRouter([
                 element:<Register/>
             },
             {
-                path:'/blog',
-                element:<PrivetRout><Blog/></PrivetRout> 
+                path:'/ticket',
+                element:<Blog/>
             },
             
             {

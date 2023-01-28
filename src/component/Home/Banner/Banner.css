@@ -47,11 +47,12 @@
     width: 450px;
     position: absolute;
     right: 100px;
-    bottom: -150px;
+    bottom: -80px;
     border-radius: 5px;
     background: #f0f2f5;
     text-align: start;
     cursor: pointer;
+    
 
 }
 
@@ -60,12 +61,13 @@
 }
 
 .swiper-pagination-bullet {
-    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 70px));
-    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 7px));
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 0px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 5px));
     display: inline-block;
     border-radius: 0% !important;
     background: var(--swiper-pagination-bullet-inactive-color, #000);
     opacity: var(--swiper-pagination-bullet-inactive-opacity, .5);
+    /* border: 1px solid red; */
 }
 
 .swiper-pagination-bullet-active {
@@ -80,10 +82,11 @@
     bottom: 10px;
     left: 0;
     width: 50%;
-    margin-left:80px ;
+    margin-left:300px ;
     position: absolute;
-    bottom: 120px;
+    bottom: 80px;
     background-color: transparent;
+    width: 500px;
 }
 
 
