@@ -10,7 +10,6 @@ const PostDetails = () => {
     const summary1 = summary.replace(regex, "");
     return (
         <>
-
             <div className='PostDetails-container max-w-screen-md mx-auto mt-20 mb-16'>
                 <div></div>
 
@@ -43,23 +42,16 @@ const PostDetails = () => {
             </div>
 
             <div style={{
-
                 width: '300px',
                 margin: '0 auto',
-                border:'1px solid red'
-
-
+                marginBottom:'150px'                
             }}>
-
-
-
-
                 <Link to={'/ticket'}>
                     <Button sx={{
                         fontWeight: '600'
                     }}
                         variant="outlined"
-                        color="success"
+                        color="error"
                         fullWidth
                     >
                         Buy Ticket
